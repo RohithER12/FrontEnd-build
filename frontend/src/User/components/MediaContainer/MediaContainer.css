@@ -1,0 +1,32 @@
+#videos{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  overflow:hidden;
+}
+
+.media-player{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#user-2{
+    display: none;
+}
+
+.smallFrame{
+  position: fixed;
+  top: 66px;
+  left: 20px;
+  height: 170px;
+  width: 300px;
+  border-radius: 5px;
+  border:2px solid #090111;
+  -webkit-box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.77);
+  box-shadow: 3px 3px 15px -1px rgba(0,0,0,0.77);
+  z-index: 999;
+}
+
+

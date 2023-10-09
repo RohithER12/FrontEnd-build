@@ -1,0 +1,18 @@
+.card_header{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.card_title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.stream_container::-webkit-scrollbar{
+    display: none;
+}

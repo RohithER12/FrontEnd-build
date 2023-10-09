@@ -1,0 +1,57 @@
+/* 
+.private-div,.join-div {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid 01c8ef;
+    border-radius: 5px;
+    background-color: transparent;
+}
+  
+  
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #57164c;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+}
+  
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+  
+button[type="submit"] {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #01c8ef;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  
+.join-button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 10px #01c8ef;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+
+.join-button:hover {
+    box-shadow: 0 0 10px #57164c;;
+} */

@@ -1,0 +1,38 @@
+@import url("https://cdn.skypack.dev/splitting/dist/splitting.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+h1 {
+	font-size: 3em;
+	
+	> span {
+		position: relative;
+		display: inline-block;
+        color: white;
+        font-family: "Geologica", sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+		height: 1.25em;
+		vertical-align: bottom;
+		overflow: hidden;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+		
+		span {
+			display: block;
+			animation: animateWords 5s infinite ease;
+		}
+	}
+}
+
+@keyframes animateWords {
+	0% {
+		transform: translateY(0%);
+	}
+	
+	25% {
+		transform: translateY(-100%);
+	}
+	
+	50% {
+		transform: translateY(-200%);
+	}
+}
+

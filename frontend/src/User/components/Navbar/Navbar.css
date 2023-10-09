@@ -1,0 +1,16 @@
+
+
+header.z-40 {
+    display: flex;
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem; 
+    gap: 1rem; 
+    width: 100%; 
+    flex-direction: row; 
+    position: relative;
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: var(--navbar-height);
+    max-width: 90%; 
+  }

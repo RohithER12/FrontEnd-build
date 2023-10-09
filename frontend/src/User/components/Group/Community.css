@@ -1,0 +1,106 @@
+.community-head-container{
+    padding:1%;
+    height: 100px; 
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.community-thumbnail{
+    height: 100%
+}
+
+.create-community-container{
+    height: 100%;
+    justify-content: center;
+
+}
+
+.create-button{
+    background-color: transparent;
+    box-shadow: 0 0 5px #e51376;
+}
+
+.create-button:hover{
+   background-color: transparent;
+   box-shadow: 0 0 5px #01c8ef;
+}
+
+.community-text {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 20px #e51376;
+}
+  
+
+ 
+.community-feed {
+    max-height: fit-content; 
+    max-width: 100%;
+    display: flex;
+    padding: 10px;
+}
+  
+.feed-container {
+    display: flex;
+    overflow-x: scroll; 
+    max-width: fit-content;
+    scrollbar-width: none; 
+    background-color: black;
+}
+
+.communityfeed-item {
+    background-color: #0e0e0e;
+    min-width: 10%;
+    margin: 10px; 
+    border: none;
+    border-radius: none;
+    padding: 10px;
+    box-shadow: none;
+    justify-content: center;
+}
+    
+.feed-container::-webkit-scrollbar {
+    display: none; 
+}
+  
+.active-community-container{
+    width: 100%;
+    max-height: fit-content;
+    display: flex;
+}
+
+.thumbnail-container{
+    max-width: 700px;
+    max-height: 350px;
+    padding: 15px;
+    margin-left: 5%;
+}
+
+.community-details{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    margin-right: 5%;
+    max-height: 350px;
+    justify-content: center;
+}
+
+.details-item-container {
+    justify-content: center;
+    margin :20px;
+}
+
+.details-item{
+    background-color:transparent;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 0 5px #e51376;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.recorded-videos{
+    padding: 5%;
+}

@@ -1,0 +1,21 @@
+.type-container {
+    display: flex;
+    justify-content: space-between; 
+    background-color: transparent;
+    padding: 20px; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.chat-body{
+    background-color: transparent;
+}
+
+.chat-body.active{
+    background-color: transparent;
+    height: 100vh;
+}

@@ -1,0 +1,51 @@
+export const timeData = [
+    {type:"1:00"},
+    {type:"2:00"},
+    {type:"3:00"},
+    {type:"4:00"},
+    {type:"5:00"},
+    {type:"6:00"},
+    {type:"7:00"},
+    {type:"8:00"},
+    {type:"9:00"},
+    {type:"10:00"},
+    {type:"11:00"},
+    {type:"12:00"},
+    {type:"13:00"},
+    {type:"14:00"},
+    {type:"15:00"},
+    {type:"16:00"},
+    {type:"17:00"},
+    {type:"18:00"},
+    {type:"18:00"},
+    {type:"19:00"},
+    {type:"20:00"},
+    {type:"21:00"},
+    {type:"22:00"},
+    {type:"23:00"},
+    {type:"24:00"},
+]
+
+export const timeZoneData = [
+    {type:'Coordinated Universal Time (UTC)'},
+    {type:'Eastern Standard Time (EST)'},
+    {type:'Central Standard Time (CST)'},
+    {type:'Pacific Standard Time (PST)'},
+    {type:'Greenwich Mean Time (GMT)'},
+    {type:'British Summer Time (BST'},
+    {type:'Central European Time (CET)'},
+    {type:'Eastern European Time (EET)'},
+    {type:'Indian Standard Time (IST)'},
+    {type:'Australian Eastern Standard Time (AEST)'},
+    {type:'Japan Standard Time (JST)'},
+
+]
+
+export const duration = [
+    {type:'10 minutes'},
+    {type:'20 minutes'},
+    {type:'30 minutes'},
+    {type:'40 minutes'},
+    {type:'50 minutes'},
+    {type:'60 minutes'},
+]
